@@ -28,7 +28,7 @@
    </dependencies>
 
    <build>
-      <finalName>expiration-dumper-task</finalName>
+      <finalName>expiration-dumper-task-${version.infinispan}</finalName>
       <plugins>
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -41,7 +41,7 @@
                      <mainClass>com.redhat.datagrid.TaskExecutor</mainClass>
                   </transformer>
                </transformers>
-               <finalName>expiration-dumper</finalName>
+               <finalName>expiration-dumper-${version.infinispan}</finalName>
             </configuration>
             <executions>
                <execution>

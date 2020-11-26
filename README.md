@@ -8,7 +8,7 @@ The histogram is then output in the server log in the EXPIRATIONS category.
 Build
 =====
 
-`mvn clean package -Dversion.infinispan=<version>`
+`mvn  -s .m2/settings.xml -U -X clean package -Dversion.infinispan=<version>`
 
 Once built, the target directory will contain two jars:
 
